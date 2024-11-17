@@ -13,11 +13,12 @@ export const Hero = () => {
       <Image
         src="/assets/images/TCE-Main-Building.webp"
         alt="TCE Main Building Image"
-        layout="fill"
-        objectFit="cover"
+        // layout="fill"
+        // objectFit="cover"
         
-        priority={true}
-        unoptimized
+        // priority={true}
+        // unoptimized
+        fill
       />
       <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-black/70 backdrop-blur-[1px] " />
 

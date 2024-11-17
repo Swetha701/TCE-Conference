@@ -103,30 +103,33 @@ const Navbar: React.FC = () => {
               <Image
                 src="./assets/logos/TCE-Logo.svg"
                 alt="TCE Logo"
-                layout="fill"
-                objectFit="cover"
-                priority
-                unoptimized
+                // layout="fill"
+                // objectFit="cover"
+                // priority
+                // unoptimized
+                fill
               />
             </div>
             <div className="relative w-[95px] h-[40px] md:h-[70px] md:w-[170px]">
               <Image
                 src="/assets/logos/iiclogo.webp"
                 alt="TCE Logo"
-                layout="fill"
-                objectFit="cover"
-                priority
-                unoptimized
+                // layout="fill"
+                // objectFit="cover"
+                // priority
+                // unoptimized
+                fill
               />
             </div>
             <div className="relative w-[40px] h-[40px] md:h-[70px] md:w-[70px]">
               <Image
                 src="/assets/logos/NAAC_LOGO.png"
                 alt="TCE Logo"
-                layout="fill"
-                objectFit="cover"
-                priority
-                unoptimized
+                // layout="fill"
+                // objectFit="cover"
+                // priority
+                // unoptimized
+                fill
               />
             </div>
             <div className="relative w-[95px] h-[40px] md:h-[70px] md:w-[170px]">
@@ -134,10 +137,11 @@ const Navbar: React.FC = () => {
                 src="/assets/logos/NBA1.jpeg"
 
                 alt="TCE Logo"
-                layout="fill"
-                objectFit="cover"
-                priority
-                unoptimized
+                // layout="fill"
+                // objectFit="cover"
+                // priority
+                // unoptimized
+                fill
               />
             </div>
             <div className="relative w-[95px] h-[40px] md:h-[70px] md:w-[170px]">
@@ -146,10 +150,11 @@ const Navbar: React.FC = () => {
                 alt="TCE Logo"
                 // height={50}
                 // width={100}
-                layout="fill"
-                objectFit="cover"
-                priority
-                unoptimized
+                // layout="fill"
+                // objectFit="cover"
+                // priority
+                // unoptimized
+                fill
               />
             </div>
             <div className="relative w-[95px] h-[40px] md:h-[70px] md:w-[170px]">
@@ -158,10 +163,11 @@ const Navbar: React.FC = () => {
                 alt="TCE Logo"
                 // width={120}
                 // height={100}
-                layout="fill"
-                objectFit="cover"
-                priority
-                unoptimized
+                // layout="fill"
+                // objectFit="cover"
+                // priority
+                // unoptimized
+                fill
               />
             </div>
           </div>
