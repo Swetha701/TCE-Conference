@@ -1,9 +1,7 @@
 
-import Image from "next/image";
+
 import React, { useState, useEffect, useCallback, useRef } from "react";
-import { Menu, X } from "lucide-react";
-import { navItems } from "@/app/data";
-import { motion, AnimatePresence } from "framer-motion";
+
 import { usePathname, useRouter } from "next/navigation";
 
 
