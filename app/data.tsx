@@ -178,7 +178,9 @@ export const topics2 = [
   },
   {
     title: "Ambient Intelligence and IoT",
-    
+    subtopics: [
+      ""
+    ]
   },
 ];
 
