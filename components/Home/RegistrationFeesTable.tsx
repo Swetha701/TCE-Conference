@@ -10,7 +10,7 @@ const ConferenceDetails: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navbarRef = useRef<HTMLDivElement>(null);
   const [navbarHeight, setNavbarHeight] = useState(0);
-  const menuRef = useRef<HTMLDivElement>(null);
+  // const menuRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
   const pathname = usePathname();
   const updateNavbarHeight = useCallback(() => {
@@ -74,24 +74,24 @@ const ConferenceDetails: React.FC = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, [isMenuOpen]);
 
-  const menuVariants = {
-    closed: {
-      height: 0,
-      opacity: 0,
-      transition: {
-        height: { duration: 0.3, ease: "easeInOut" },
-        opacity: { duration: 0.2, ease: "easeInOut" },
-      },
-    },
-    open: {
-      height: "auto",
-      opacity: 1,
-      transition: {
-        height: { duration: 0.3, ease: "easeInOut" },
-        opacity: { duration: 0.3, ease: "easeInOut", delay: 0.1 },
-      },
-    },
-  };
+  // const menuVariants = {
+  //   closed: {
+  //     height: 0,
+  //     opacity: 0,
+  //     transition: {
+  //       height: { duration: 0.3, ease: "easeInOut" },
+  //       opacity: { duration: 0.2, ease: "easeInOut" },
+  //     },
+  //   },
+  //   open: {
+  //     height: "auto",
+  //     opacity: 1,
+  //     transition: {
+  //       height: { duration: 0.3, ease: "easeInOut" },
+  //       opacity: { duration: 0.3, ease: "easeInOut", delay: 0.1 },
+  //     },
+  //   },
+  // };
 
   return (
     <div className="p-6 md:p-8 rounded-lg">
