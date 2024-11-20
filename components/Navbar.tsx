@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import React, { useState, useEffect, useCallback, useRef } from "react";
 import { Menu, X } from "lucide-react";
