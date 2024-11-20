@@ -38,7 +38,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-3xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-8 text-center"
         >
-          International Conference  (SCOPE 2025)
+          International Conference on Sustainable Computing and Optimized Practices for Excellence (Hybrid mode)
         </motion.h1>
 
         <motion.div
