@@ -36,7 +36,7 @@ export const Hero = () => {
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-3xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-8 text-center"
+          className="text-2xl sm:text-4xl md:text-6xl font-bold tracking-tight mb-8 text-center"
         >
           International Conference on Sustainable Computing and Optimized Practices for Excellence (Hybrid mode)
         </motion.h1>
