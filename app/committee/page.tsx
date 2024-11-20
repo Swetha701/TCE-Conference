@@ -1,6 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import React from "react";
-import "./globals.css";
+import "./";
 interface CommitteeMember {
   name: string;
   designation?: string;
